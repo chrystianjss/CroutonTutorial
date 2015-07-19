@@ -1,4 +1,6 @@
-![Crouton](/imgs_tutorial/img1.png?raw=true)
+### Crouton
+
+![Crouton](/imgs_tutorial/img1.png?raw=true "Crouton logo")
 ### Overview
 O objetivo principal do **Crouton**, é ser uma uma alternativa mais amigável ao
 tradicional TOAST do Android, oferecendo contexto customizado às diversas situações
@@ -6,17 +8,17 @@ em que há a necessidade de exibir uma notificação. A posição tradicional do
 é o topo da tela, mas esta pode ser modificada a gosto do desenvolvedor. Também é
 possível exibir multiplos **Croutons**, sendo assim exibidos um após o outro.
 
-![Crouton Look](/imgs_tutorial/img2.png?raw=true)
+![Crouton Look](/imgs_tutorial/img2.png?raw=true "Crouton Look")
 
 ### Baixando e configurando a Biblioteca
 
-No Android Studio
+No Android Studio:
 
 O build requer o uso do Gradle. Os passo são os seguintes:
 
-* Instalar o gradle
-* gradle assemble fará o build dos artefatos
-* gradle jar fará o build do jar
+* instalar o gradle
+* `gradle assemble` fará o build dos artefatos
+* `gradle jar` fará o build do jar
 
 Após colocar o Crouton em um repositório você poderá adicionar as dependências
 dele.
@@ -27,7 +29,7 @@ compile( 'de.keyboardsurfer.android.widget:crouton:1.8.5@aar' ) {
 }
 ```
 
-No Eclipse
+No Eclipse:
 
 A biblioteca foi desenvolvida no ambiente do Android Studio e faz uso do Gradle. Apesar de não muito recomendado pelos desenvolvedores, existe a opção de baixar o
 arquivo .jar da biblioteca para que possa ser usada no Eclipse.
@@ -63,6 +65,7 @@ Activity.onDestroy() para que sejam cancelados quaisquer outros Croutons agendad
 
 Há três estilos predefinidos no Crouton:
 
+![Crouton Styles](/imgs_tutorial/img3.png?raw=true "Crouton Styles")
 
 Todo o visual e customização do Crouton é definido pela classe **Style**.
 
@@ -77,4 +80,5 @@ As opções de customização são:
 * Animação ao aparecer e desaparecer
 * Exibir imagem
 
-Demonstração do uso da biblioteca Crouton
+Demonstração do uso da biblioteca Crouton:
+![Crouton Demo](/imgs_tutorial/img4.png?raw=true "Crouton Demo")
