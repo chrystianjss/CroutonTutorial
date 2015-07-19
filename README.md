@@ -1,9 +1,12 @@
+![Crouton](/imgs_tutorial/img1.png?raw=true)
 ### Overview
 O objetivo principal do **Crouton**, é ser uma uma alternativa mais amigável ao
 tradicional TOAST do Android, oferecendo contexto customizado às diversas situações
 em que há a necessidade de exibir uma notificação. A posição tradicional do **Crouton**
 é o topo da tela, mas esta pode ser modificada a gosto do desenvolvedor. Também é
 possível exibir multiplos **Croutons**, sendo assim exibidos um após o outro.
+
+![Crouton Look](/imgs_tutorial/img2.png?raw=true)
 
 ### Baixando e configurando a Biblioteca
 
@@ -59,6 +62,7 @@ Activity.onDestroy() para que sejam cancelados quaisquer outros Croutons agendad
 ###Exemplos
 
 Há três estilos predefinidos no Crouton:
+
 
 Todo o visual e customização do Crouton é definido pela classe **Style**.
 
